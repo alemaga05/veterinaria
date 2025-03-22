@@ -222,6 +222,41 @@ main {
     color: #6f4f31;
 }
 
+.faq-container {
+    background-color: #f9f4e7;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.faq-container h3 {
+    color: #6f4f31;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h4 {
+    color: #6f4f31;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
     .topbar {
@@ -283,7 +318,29 @@ main {
         width: 100%; /* Para que as imagens se ajustem corretamente */
         height: auto;
     }
+
+    .faq-container {
+        padding: 15px;
+    }
+
+    .faq-item {
+        padding: 12px;
+    }
+
+    .faq-container h3 {
+        font-size: 22px;
+    }
+
+    .faq-item h4 {
+        font-size: 18px;
+    }
+
+    .faq-item p {
+        font-size: 16px;
+    }
 }
+
+
 
 /* Referências Bibliográficas */
 .referencias-bibliograficas {
